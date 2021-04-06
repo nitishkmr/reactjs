@@ -1,11 +1,13 @@
 import React from "react";
 import Detail from "./Detail";
 
+
 function Card(props) {
     return (
       <div>
         <div className="card">
           <div className="top">
+            <p>{props.key}</p>
             <h2 className="name">{props.name}</h2>
             <img
               className="circle-img"
