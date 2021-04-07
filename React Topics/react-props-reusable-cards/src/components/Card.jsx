@@ -7,7 +7,6 @@ function Card(props) {
       <div>
         <div className="card">
           <div className="top">
-            <p>{props.key}</p>
             <h2 className="name">{props.name}</h2>
             <img
               className="circle-img"
